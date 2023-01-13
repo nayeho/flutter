@@ -1,3 +1,5 @@
+import 'package:contact/exam/ex01.dart';
+import 'package:contact/exam/ex02.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -9,12 +11,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      // home: Text('안녕')
-      // home: Icon(Icons.star)
-      home: Image.asset('assets/pengsoo.png')
-      // home: Center(
-      //     child: Container( width: 50, height: 50, color: Colors.pink)) // 단위 : LP
-    );
+    return Ex01().build(context);
+    // return Ex02().build(context);
   }
 }
